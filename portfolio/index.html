@@ -9,7 +9,7 @@
   <meta property='og:description' content='goshiのポートフォリオです。'>
   <meta property="og:image" content="img/ogp.png">
   <meta name="description" content="goshiのポートフォリオです。" />
-  <title>goshi portfolio</title>
+  <title>Portfolio</title>
   <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
   <link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
@@ -23,53 +23,56 @@
   <div id="wrapper">
     <header id="header">
       <h1 class="logo">
-        <span class="logo-title">Goshi Suzuki’s <br> PORTFOLIO</span>
+        <span class="logo-title">Portfolio</span>
         <span class="logo-desc">Web Engineer</span>
       </h1>
     </header>
-    <nav id="gnav">
+    <nav id="gnav" class="bg-light">
         <ul>
-            <li><a href="#Profile">PROFILE</a></li>
-            <li><a href="#skill">SKILL</a></li>
-            <li><a href="#works">WORKS</a></li>
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#contact">CONTACT</a></li>
+            <li><a href="#Profile">About</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#about">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
     <main id="contents">
-        <section class="section" id="Profile">
+        <section class="section text-dark" id="about">
             <div class="inner">
                 <div class="section-title-block">
-                    <h2 class="section-title">Profile</h2>
+                    <h3 class="section-title">About</h3>
+                    <br />
+                    <h2 class="section-title">自己紹介</h2>
                 </div>
                 <div class="two-column-wrapper">
-                    <div class="two-column-image">
+                    <!-- <div class="two-column-image">
                         <img src="img/feature/feature.jpg" alt="">
-                    </div>
+                    </div> -->
                     <div class="two-column-desc">
                         <p class="text">
-                            はじめまして！<br />
-                            昭和62年生まれ、IT業界8年目のエンジニア 鈴木 剛士()です！<br />
-                            前職では中小企業のSEとして入社し、常駐先ではウォーターフォール型開発に携わりました。
-                            複数の案件で基本設計からテストやリリース補助まで参画しましたが、代わり映えがなく刺激が少ない仕事に将来的な不安を抱き転職を決意。<br />
-                            以前より興味があったWeb系開発を勉強し直し現在就職活動中です。(2019年12月現在)
+                          <ul class="section-main">
+                            <li>名前：Goshi Suzuki</li>
+                            <li>出身：福島県</li>
+                            <li>経歴：エンジニア系専門学校を卒業後、福岡で中小SIerへ入社しSEを7年経験</li>
+                            <!-- <li>ブログ：個人ブログ「<a href="https://simablog.net/" class="text-info" target=”_blank”>SIMA BLOG</a> 」を運営</li> -->
+                            <li>その他：縁があり現在は香川県に在住</li>
+                          </ul>
                         </p>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="section" id="skill">
+        <section class="section section-primary text-white" id="skill">
             <div class="inner">
-                <div class="section-title-block">
-                    <h2 class="section-title"><i class="fas fa-lightbulb fa-lg"><span class="section-title-css">SKILL</span></i></h2>
-                    <p class="section-desc"></p>
-                </div>
+              <div class="section-title-block">
+                  <h3 class="section-title">Skillset</h3>
+                  <br />
+                  <h2 class="section-title">スキルセット</h2>
+              </div>
                 <div class="card-wrapper">
-
-                    <div class="card">
+                    <div class="card" >
                         <div class="skill-desc">
                             <h3 class="skill-desc-title"><i class="fas fa-desktop"></i>デザイン・コーディング</h3>
-                            <p>基本的な事は一通りできます。</p>
+                            <p>実務で問題なく使用できます。</p>
                             <table class="table table-borderless">
                                 <thead>
                                     <tr>
@@ -79,30 +82,29 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
-                                        <th scope="row">HTML4</th>
-                                        <td>7年</td>
-                                        <td><span class="rating"><p class="rate rate4"></p></span></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">HTML5</th>
-                                        <td>1年</td>
-                                        <td><span class="rating"><p class="rate rate3"></p></span></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">CSS3</th>
-                                        <td>7年</td>
-                                        <td><span class="rating"><p class="rate rate4"></p></span></td>
-                                    </tr>
+                                  <tr>
+                                      <th scope="row">HTML4</th>
+                                      <td>7年</td>
+                                      <td><span class="rating"><p class="rate rate5"></p></span></td>
+                                  </tr>
+                                  <tr>
+                                      <th scope="row">HTML5</th>
+                                      <td>1年</td>
+                                      <td><span class="rating"><p class="rate rate3"></p></span></td>
+                                  </tr>
+                                  <tr>
+                                      <th scope="row">CSS3</th>
+                                      <td>7年</td>
+                                      <td><span class="rating"><p class="rate rate5"></p></span></td>
+                                  </tr>
                                 </tbody>
                             </table>
                         </div>
                     </div>
-
                     <div class="card">
                         <div class="skill-desc">
                             <h3 class="skill-desc-title"><i class="fas fa-desktop"></i>フロントエンド</h3>
-                            <p>本格的な開発から少しブランクがありますが調べながら不自由なく開発を行えます</p>
+                            <p>問題のあるライブラリを解析/修正できます。</p>
                             <table class="table table-borderless">
                                 <thead>
                                     <tr>
@@ -130,7 +132,7 @@
                     <div class="card">
                         <div class="skill-desc">
                             <h3 class="skill-desc-title"><i class="fas fa-desktop"></i>バックエンド</h3>
-                            <p>AndroidはEclipceでの開発がメインでした。</p>
+                            <p>バックエンドは主にASP.NETでの開発を行っていました。</p>
                             <table class="table table-borderless">
                                 <thead>
                                     <tr>
@@ -148,12 +150,17 @@
                                     <tr>
                                         <th scope="row">Android(Java)</th>
                                         <td>4年</td>
-                                        <td><span class="rating"><p class="rate rate3"></p></span></td>
+                                        <td><span class="rating"><p class="rate rate4"></p></span></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">Kotlin</th>
                                         <td>1年未満</td>
-                                        <td><span class="rating"><p class="rate rate2"></p></span></td>
+                                        <td><span class="rating"><p class="rate rate3"></p></span></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Ruby</th>
+                                        <td>1年未満(独学)</td>
+                                        <td><span class="rating"><p class="rate rate4"></p></span></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -163,7 +170,7 @@
                     <div class="card">
                         <div class="skill-desc">
                             <h3 class="skill-desc-title"><i class="fas fa-database"></i>DB</h3>
-                            <p>直近ではMySQLを使用しました。</p>
+                            <p>主にDB設計やSELECT文の発行で使用していました。</p>
                             <table class="table table-borderless">
                                 <thead>
                                     <tr>
@@ -175,47 +182,23 @@
                                 <tbody>
                                     <tr>
                                         <th scope="row">Oracle</th>
-                                        <td>2年</td>
+                                        <td>7年</td>
                                         <td><span class="rating"><p class="rate rate4"></p></span></td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">MySQL</th>
-                                        <td>1年</td>
+                                        <th scope="row">SQLite</th>
+                                        <td>4年</td>
                                         <td><span class="rating"><p class="rate rate4"></p></span></td>
                                     </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <div class="skill-desc">
-                            <h3 class="skill-desc-title"><i class="fas fa-server"></i>インフラ・サーバー</h3>
-                            <p>awsではEC2、RDS、cloudwatch等を触っています。</p>
-                            <table class="table table-borderless">
-                                <thead>
                                     <tr>
-                                        <th scope="col">技術</th>
-                                        <th scope="col">経験年数</th>
-                                        <th scope="col">スキル</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">Apache</th>
-                                        <td>1年</td>
-                                        <td><span class="rating"><p class="rate rate3"></p></span></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">aws(EC2、RDS等)</th>
-                                        <td>1年</td>
+                                        <th scope="row">PostgreSQL</th>
+                                        <td>1年(独学)</td>
                                         <td><span class="rating"><p class="rate rate3"></p></span></td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
                     </div>
-
                     <div class="card">
                         <div class="skill-desc">
                             <h3 class="skill-desc-title"><i class="fas fa-toolbox"></i>その他</h3>
@@ -230,172 +213,111 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <th scope="row">monaca(cordova)</th>
-                                        <td>1年</td>
-                                        <td><span class="rating"><p class="rate rate3"></p></span></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">Swagger</th>
-                                        <td>1年</td>
-                                        <td><span class="rating"><p class="rate rate4"></p></span></td>
-                                    </tr>
-                                    <tr>
                                         <th scope="row">git</th>
-                                        <td>1年</td>
-                                        <td><span class="rating"><p class="rate rate4"></p></span></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">SVN</th>
-                                        <td>1年</td>
-                                        <td><span class="rating"><p class="rate rate2"></p></span></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">slack</th>
-                                        <td>2年</td>
+                                        <td>5年</td>
                                         <td><span class="rating"><p class="rate rate5"></p></span></td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">Postman</th>
-                                        <td>1年</td>
+                                        <th scope="row">SVN</th>
+                                        <td>7年</td>
+                                        <td><span class="rating"><p class="rate rate5"></p></span></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">VBS</th>
+                                        <td>3年</td>
+                                        <td><span class="rating"><p class="rate rate4"></p></span></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Visual Studio</th>
+                                        <td>7年</td>
+                                        <td><span class="rating"><p class="rate rate5"></p></span></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">.NET Framework</th>
+                                        <td>7年</td>
+                                        <td><span class="rating"><p class="rate rate5"></p></span></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Eclipse</th>
+                                        <td>4年</td>
+                                        <td><span class="rating"><p class="rate rate5"></p></span></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Ruby on Rails</th>
+                                        <td>1年未満(独学)</td>
                                         <td><span class="rating"><p class="rate rate4"></p></span></td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
-                    </div>
-
-                    <div class="card">
-                        <div class="skill-desc">
-                            <h3 class="skill-desc-title"><i class="fas fa-list-alt"></i>保有資格</h3>
-                            <p>社会人になってから取得したものです。</p>
-                            <table class="table table-borderless">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">資格</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">基本情報技術者</th>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">Oracle Bronze</th>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">JavaSE8 silve</th>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
                     </div>
                 </div>
             </div>
         </section>
-            
-        <section class="section" id="works">
+        <section class="section " id="works">
             <div class="inner">
-                <div class="section-title-block">
-                    <h2 class="section-title">WORKS</h2>
-                    <div class="section-desc">
-                        <p class="text">
-                            これまでの制作実績です。
-                        </p>
-                    </div>
-                </div>
+              <div class="section-title-block">
+                  <h3 class="section-title">Portfolio</h3>
+                  <br />
+                  <h2 class="section-title">制作実績</h2>
+              </div>
                 <div class="card-wrapper my-gallery">
                     <figure class="card">
                         <a href="img/works/work01.jpg" data-size="980x668" class="card-image">
-                            <img src="img/works/thumb/thumb_work01.jpg" alt="" />
+                            <img src="img/works/img_portfolio_site.png" alt="" />
                         </a>
                         <figcaption class="card-caption">
-                            <p class="card-caption-title">作品タイトル</p>
-                            <p class="card-caption-info">Design / Coding</p>
-                            <p class="card-caption-url"><a class="url-link" href="＃" target="_blank">Link</a></p>
+                            <p class="card-caption-title">Portfolio</p>
+                            <p class="card-caption-info">自身のポートフォリオサイトです</p>
+                            <p class="card-caption-skill">HTML/CSS<p>
+                            <p class="card-caption-url"><a class="url-link" href="#header">Link</a>
+                              <span> / </span>
+                              <a class="url-link" href="https://github.com/SuzukiGoshi/Portfolio" target="_blank">github</a>
+                            </p>
                         </figcaption>
                     </figure>
                     <figure class="card">
                         <a href="img/works/work02.jpg" data-size="980x668" class="card-image">
-                            <img src="img/works/thumb/thumb_work02.jpg" alt="" />
+                            <img src="img/works/img_invcnt_site.png" alt="" />
                         </a>
                         <figcaption class="card-caption">
-                            <p class="card-caption-title">作品タイトル</p>
-                            <p class="card-caption-info">Design / Coding</p>
-                            <p class="card-caption-url"><a class="url-link" href="＃" target="_blank">Link</a></p>
+                            <p class="card-caption-title">在庫管理</p>
+                            <p class="card-caption-info">ログイン/DBの更新/RSpecでのテスト等を行っています。</p>
+                            <p class="card-caption-skill">html/css3/Ruby on Rails/PostgreSQL </p>
+                            <p class="card-caption-url"><a class="url-link" href="https://goshi2020.herokuapp.com/" target="_blank">Link</a>
+                              <span> / </span>
+                              <a class="url-link" href="https://github.com/SuzukiGoshi/Invcnt" target="_blank">github</a></p>
                         </figcaption>
                     </figure>
-                    <figure class="card">
-                        <a href="img/works/work03.jpg" data-size="980x668" class="card-image">
-                            <img src="img/works/thumb/thumb_work03.jpg" alt="" />
-                        </a>
-                        <figcaption class="card-caption">
-                            <p class="card-caption-title">作品タイトル</p>
-                            <p class="card-caption-info">Design / Coding</p>
-                            <p class="card-caption-url"><a class="url-link" href="＃" target="_blank">Link</a></p>
-                        </figcaption>
-                    </figure>
-                    <figure class="card">
-                        <a href="img/works/work04.jpg" data-size="980x668" class="card-image">
-                            <img src="img/works/thumb/thumb_work04.jpg" alt="" />
-                        </a>
-                        <figcaption class="card-caption">
-                            <p class="card-caption-title">作品タイトル</p>
-                            <p class="card-caption-info">Design / Coding</p>
-                            <p class="card-caption-url"><a class="url-link" href="＃" target="_blank">Link</a></p>
-
-                        </figcaption>
-                    </figure>
-                    <figure class="card">
-                        <a href="img/works/work05.jpg" data-size="980x668" class="card-image">
-                            <img src="img/works/thumb/thumb_work05.jpg" alt="" />
-                        </a>
-                        <figcaption class="card-caption">
-                            <p class="card-caption-title">作品タイトル</p>
-                            <p class="card-caption-info">Design / Coding</p>
-                            <p class="card-caption-url"><a class="url-link" href="＃" target="_blank">Link</a></p>
-                        </figcaption>
-                    </figure>
-                    <figure class="card">
-                        <a href="img/works/work06.jpg" data-size="980x668" class="card-image">
-                            <img src="img/works/thumb/thumb_work06.jpg" alt="" />
-                        </a>
-                        <figcaption class="card-caption">
-                            <p class="card-caption-title">作品タイトル</p>
-                            <p class="card-caption-info">Design / Coding</p>
-                            <p class="card-caption-url"><a class="url-link" href="＃" target="_blank">Link</a></p>
-                        </figcaption>
-                    </figure>
-
                 </div>
             </div>
         </section>
 
 
 
-        <section class="section" id="contact">
+        <section class="section bg-light" id="contact">
             <div class="inner">
-                <div class="section-title-block">
-                    <h2 class="section-title">CONTACT</h2>
-                    <p class="section-desc">
-                        お問合わせは下記のフォームかSNSからご連絡をください。
-                    </p>
-                </div>
+              <div class="section-title-block">
+                  <h3 class="section-title">Contact</h3>
+                  <br />
+                  <h2 class="section-title">お問い合わせ</h2>
+              </div>
                 <div class="contact-wrapper">
                     <div class="contact-list">
                         <ul>
                             <li>
-                                <a href="#">
-                                    <img src="img/contact/icon_contact.png" alt=""><span class="contact-list-desc">フォーム</span>
+                                <a href="mailto:suzuki.goshi.sub@gmail.com">
+                                    <img src="img/contact/icon_mail.png" alt=""><span class="contact-list-desc">メール</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#" target="_blank">
-                                    <img src="img/contact/icon_contact.png" alt=""><span class="contact-list-desc">Twitter</span>
+                                    <img src="img/contact/icon_twitter.png" alt="https://twitter.com/shigu_gs"><span class="contact-list-desc">Twitter</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#" target="_blank">
-                                    <img src="img/contact/icon_contact.png" alt=""><span class="contact-list-desc">Facebook</span>
+                                    <img src="img/contact/icon_program.png" alt="https://github.com/SuzukiGoshi/"><span class="contact-list-desc">github</span>
                                 </a>
                             </li>
                         </ul>
@@ -406,16 +328,7 @@
     </main>
     <footer id="footer">
       <div class="inner">
-        <nav class="footer-link">
-          <ul>
-            <li><a href="#feature">FEATURE</a></li>
-            <li><a href="#works">WORKS</a></li>
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#skill">SKILL</a></li>
-            <li><a href="#contact">CONTACT</a></li>
-          </ul>
-        </nav>
-        <p class="copyright">Copyright&copy;Hanako Yamada. All Rights Reserved.</p>
+        <p class="copyright">Copyright&copy;Suzuki Goshi. All Rights Reserved.</p>
       </div>
     </footer>
   </div>
