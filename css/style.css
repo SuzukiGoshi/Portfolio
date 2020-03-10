@@ -198,6 +198,7 @@ li {
 
 .section-main li{
     font-size: 1.25rem!important;
+    width: 100%;
 }
 
 .section-primary
@@ -297,7 +298,7 @@ li {
 }
 
 #about .two-column-desc {
-    width: 62%;
+    width: 100%;
 }
 
 /*--------------------------------
